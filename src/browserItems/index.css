@@ -8,8 +8,8 @@
 .list {
   width: 90%;
   list-style-type: none;
-
-  background-color: whitesmoke;
+  box-shadow: 0px 0px 1px 0px;
+  border-bottom: white;
 }
 .container {
   display: flex;
@@ -26,7 +26,8 @@
 .button {
   border: none;
   cursor: pointer;
+  background-color: white;
 }
 button:hover {
-  background-color: brown;
+  background-color: red;
 }

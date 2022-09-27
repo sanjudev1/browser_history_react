@@ -124,19 +124,20 @@ class BrowserHistory extends Component {
             />
           </div>
         </div>
-
-        <ul className="list">
-          {filteredHistory.length === 0 && (
-            <p className="notFound">There is no history to show</p>
-          )}
-          {filteredHistory.map(eachItem => (
-            <BrowserItems
-              browserItems={eachItem}
-              key={eachItem.id}
-              deletedItemList={this.deletedItem}
-            />
-          ))}
-        </ul>
+        <div className="box">
+          <ul className="list">
+            {filteredHistory.length === 0 && (
+              <p className="notFound">There is no history to show</p>
+            )}
+            {filteredHistory.map(eachItem => (
+              <BrowserItems
+                browserItems={eachItem}
+                key={eachItem.id}
+                deletedItemList={this.deletedItem}
+              />
+            ))}
+          </ul>
+        </div>
       </div>
     )
   }
