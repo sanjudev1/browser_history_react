@@ -1,0 +1,32 @@
+.image {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.list {
+  width: 90%;
+  list-style-type: none;
+
+  background-color: whitesmoke;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.styling {
+  margin-left: 20px;
+}
+.button {
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: brown;
+}
